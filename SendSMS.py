@@ -14,7 +14,7 @@ def sendsms():
     message = client.messages.create(
         from_='+19733216016',
         body='Elon musk just tweeted about Doge',
-        to='+353831087347'
+        to='+353877770708'
     )
 
     print(message.sid)
