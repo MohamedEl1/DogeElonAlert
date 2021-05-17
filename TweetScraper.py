@@ -38,7 +38,12 @@ def ScrapeTweets():
         new_tweet_count = len(df.index)
 
         if new_tweet_count > initial_tweet_count:
+            # Calling SMS function to send text message to phone number
+            SendSMS.sendsms()
             print("Elon musk Just tweeted about DogeCoin")
+
+            # Increment initial tweet count
+            initial_tweet_count +=1
             break
             # incremet initial count too
         else:
