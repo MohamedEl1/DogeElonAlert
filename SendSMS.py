@@ -13,7 +13,7 @@ def sendsms():
     with the number in which you want to send message.'''
     message = client.messages.create(
         from_='+19733216016',
-        body='Elon musk just tweeted about Doge',
+        body='Elon musk just tweeted about Doge, sent from local machine',
         to='+353877770708'
     )
 

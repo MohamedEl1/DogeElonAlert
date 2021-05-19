@@ -1,5 +1,6 @@
 import twint
 import SendSMS
+import nest_asyncio
 
 import pandas
 # Configure
@@ -8,6 +9,8 @@ import pandas
 # new_tweet_count = 0
 
 def ScrapeTweets():
+
+    nest_asyncio.apply()
     c = twint.Config()
 
     # Elon Musk's Twitter and prints tweets that includes "Doge"
