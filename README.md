@@ -7,22 +7,34 @@ A Python script that will send you an text message to your phone number when Elo
 # Requirements
 Python 3+
 
-Installation:
 
+## How to Install and Run the Project
+1. Clone or Download the repository (Depending on whether you are using SSH or HTTPS)
+
+```
 git clone https://github.com/MohamedEl1/DogeElonAlert.git
+```
 
-1. Go to twilio.com and sign up for a free trial account (Needed for SMS messaging and to get the key values)
-2. Create a .env file and copy and paste the following
+2. Go to twilio.com and sign up for a free trial account (Needed for SMS messaging and to get the key values)
 
+3. Create a .env file in the root folder and copy and paste the following (Your Account Sid and Auth Token from twilio.com / console):
+```
+account_sid = ''
+auth_token = ''
+```
 
-cd into the path of the folder command line then type:
+4. cd into the path of the folder command line then type:
 
+```
 Pip install requirements.txt
-this should install all the necessary packages to run the script.
+```
+This should install all the necessary packages to run the script.
 
 
-# Run the script from the command line
+5. Run the script from the command line
+```
 Python main.py
+```
 
 
 
