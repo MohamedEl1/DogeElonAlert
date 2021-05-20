@@ -15,7 +15,7 @@ Python 3+
 git clone https://github.com/MohamedEl1/DogeElonAlert.git
 ```
 
-2. Go to twilio.com and sign up for a free trial account (Needed for SMS messaging and to get the key values)
+2. Go to [twilio.com] and sign up for a free trial account (Needed for SMS messaging and to get the key values)
 
 3. Create a .env file in the root folder and copy and paste the following (Your Account Sid and Auth Token from twilio.com / console):
 ```
@@ -35,6 +35,12 @@ This should install all the necessary packages to run the script.
 ```
 Python main.py
 ```
+
+Up Next:
+- Sentiment Analysis of tweets (Positive/Negative)
+- Machine Learning Prediction Algrothim to Predict if Doge is contained in an image posted by Elon Musk
+- Deply To heroku Cloud Platform instead of running the scraipt in the local machine
+
 
 
 
