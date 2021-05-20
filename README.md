@@ -1,4 +1,8 @@
 # DogeElonAlert
+![Python](https://img.shields.io/badge/python-v3.7+-blue.svg)
+
+A Python script that will send you an text message to your phone number when Elon Musk tweets about Doge Coin !
+
 
 # Requirements
 Python 3+
