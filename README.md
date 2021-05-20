@@ -15,7 +15,7 @@ Python 3+
 git clone https://github.com/MohamedEl1/DogeElonAlert.git
 ```
 
-2. Go to [twilio.com] and sign up for a free trial account (Needed for SMS messaging and to get the key values)
+2. Go to https://www.twilio.com/ and sign up for a free trial account (Needed for SMS messaging and to get the key values)
 
 3. Create a .env file in the root folder and copy and paste the following (Your Account Sid and Auth Token from twilio.com / console):
 ```
