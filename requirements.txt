@@ -1,5 +1,3 @@
-twilio==6.58.0
-twint==2.1.20
-cython==0.29.23
-pandas==0.25.3
 nest_asyncio==1.5.1
+twint==2.1.21
+twilio==6.58.0

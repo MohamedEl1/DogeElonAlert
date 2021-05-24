@@ -1,30 +1,21 @@
 import twint
 import SendSMS
 import nest_asyncio
-
-import pandas
-# Configure
-
-# initial_tweet_count = 0
-# new_tweet_count = 0
+import time
 
 def ScrapeTweets():
 
+    starttime = time.time()
     nest_asyncio.apply()
     c = twint.Config()
 
     # Elon Musk's Twitter and prints tweets that includes "Doge"
-    c.Username = "Mohamed79113197"
+    c.Username = "elonmusk"
     c.Search = "doge"
     c.Limit = 2
     c.Count = True
     c.Pandas = True
 
-    # c.Output = "./" + 'ElonDogeTweets.csv'
-
-    # if you want to search recent tweets by a specific word
-    # c.Search = "GME"
-    # c.Limit = 10
 
     # Run the scraping of Elon's tweet
     twint.run.Search(c)
@@ -47,13 +38,11 @@ def ScrapeTweets():
 
             # Increment initial tweet count
             initial_tweet_count +=1
-            break
-            # incremet initial count too
+
         else:
-            print("Number of rows ", len(df.index))
-            print("Waiting for new tweet from Elon Musk About Doge")
-        # df.to_csv('blm_20.csv', index=False)
-        # print(df.head(5))
+            print("Waiting for new tweet from Elon Musk About Doge coin")
+        time.sleep(60.0 - ((time.time() - starttime) % 60.0))
+
 
 ScrapeTweets()
 
