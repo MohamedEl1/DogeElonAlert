@@ -17,11 +17,12 @@ git clone https://github.com/MohamedEl1/DogeElonAlert.git
 
 2. Go to https://www.twilio.com/ and sign up for a free trial account (Needed for SMS messaging and to get the key values)
 
-3. Create a .env file in the root folder and copy and paste the following (Your Account Sid and Auth Token from twilio.com / console):
+3. edit SendSMS.py file in the root folder and copy and paste the following (Your Account Sid and Auth Token from twilio.com / console):
 ```
 account_sid = ''
 auth_token = ''
 ```
+Also enter your twilio Phone number & the phone number you want the message to be recieved to.
 
 4. cd into the path of the folder command line then type:
 
@@ -33,7 +34,7 @@ This should install all the necessary packages to run the script.
 
 5. Run the script from the command line
 ```
-Python main.py
+Python TweetScraper.py
 ```
 
 Up Next:
