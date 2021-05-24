@@ -33,7 +33,7 @@ This should install all the necessary packages to run the script.
 
 5. Run the script from the command line
 ```
-Python main.py
+Python TweetScraper.py
 ```
 
 Up Next:
