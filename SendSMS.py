@@ -2,7 +2,6 @@
 from twilio.rest import Client
 
 def sendsms():
-
     # Your Account Sid and Auth Token from twilio.com / console
     account_sid = ''
     auth_token = ''
