@@ -10,7 +10,7 @@ def ScrapeTweets():
     c = twint.Config()
 
     # Elon Musk's Twitter and prints tweets that includes "Doge"
-    c.Username = "Mohamed79113197"
+    c.Username = "elonmusk"
     c.Search = "doge"
     c.Limit = 2
     c.Count = True
